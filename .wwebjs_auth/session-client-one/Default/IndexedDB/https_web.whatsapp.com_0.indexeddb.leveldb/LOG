@@ -1,16 +1,11 @@
-2022/08/07-19:55:10.403 1a3c Reusing MANIFEST C:\Users\andre\OneDrive\Área de Trabalho\Codes\NODE\solvee-wpp\.wwebjs_auth\session-client-one\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/08/07-19:55:10.404 1a3c Recovering log #135
-2022/08/07-19:55:10.523 1a3c Reusing old log C:\Users\andre\OneDrive\Área de Trabalho\Codes\NODE\solvee-wpp\.wwebjs_auth\session-client-one\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000135.log 
-2022/08/07-19:55:21.555 2d44 Level-0 table #146: started
-2022/08/07-19:55:21.579 2d44 Level-0 table #146: 1409707 bytes OK
-2022/08/07-19:55:21.580 2d44 Delete type=0 #135
-2022/08/07-19:55:21.584 2d44 Compacting 1@1 + 7@2 files
-2022/08/07-19:55:21.651 2d44 Generated table #147@1: 33839 keys, 2240160 bytes
-2022/08/07-19:55:21.675 2d44 Generated table #148@1: 1831 keys, 2153588 bytes
-2022/08/07-19:55:21.697 2d44 Generated table #149@1: 1682 keys, 2144770 bytes
-2022/08/07-19:55:22.214 2d44 Generated table #150@1: 2997 keys, 2148904 bytes
-2022/08/07-19:55:22.283 2d44 Generated table #151@1: 25848 keys, 2270076 bytes
-2022/08/07-19:55:22.341 2d44 Generated table #152@1: 45854 keys, 2184151 bytes
-2022/08/07-19:55:22.423 2d44 Generated table #153@1: 87138 keys, 1813443 bytes
-2022/08/07-19:55:22.423 2d44 Compacted 1@1 + 7@2 files => 14955092 bytes
-2022/08/07-19:55:22.424 2d44 compacted to: files[ 0 0 7 0 0 0 0 ]
+2022/08/08-09:15:46.130 f14 Reusing MANIFEST C:\Users\andre\OneDrive\Área de Trabalho\Codes\NODE\solvee-wpp\.wwebjs_auth\session-client-one\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/08/08-09:15:46.138 f14 Recovering log #145
+2022/08/08-09:15:46.175 f14 Reusing old log C:\Users\andre\OneDrive\Área de Trabalho\Codes\NODE\solvee-wpp\.wwebjs_auth\session-client-one\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000145.log 
+2022/08/08-09:15:46.176 f14 Delete type=2 #137
+2022/08/08-09:15:46.176 f14 Delete type=2 #138
+2022/08/08-09:15:46.176 f14 Delete type=2 #139
+2022/08/08-09:15:46.176 f14 Delete type=2 #140
+2022/08/08-09:15:46.176 f14 Delete type=2 #141
+2022/08/08-09:15:46.176 f14 Delete type=2 #142
+2022/08/08-09:15:46.176 f14 Delete type=2 #143
+2022/08/08-09:15:46.176 f14 Delete type=2 #146
