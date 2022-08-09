@@ -26,7 +26,8 @@ const allowedOrigins = [
   'http://localhost',
   'http://localhost:8080',
   'http://localhost:3000',
-  'https://solvee.app.br'
+  'https://solvee.app.br',
+  'https://api-dev.solvee.app.br'
 ];
 
 const corsOptions = {
@@ -47,7 +48,6 @@ app.use('/users', cors(corsOptions), usersRouter);
 app.use(function(req, res, next) {
   next(createError(404));
 });
-
 
 
 bot.client;

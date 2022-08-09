@@ -9,5 +9,13 @@ module.exports = {
       console.log(error);
       return response.status(500).json({ error: error });
     }
+  },
+
+  async ping (request, response) {
+    try {
+      return response.status(200).json({ body: 'Ping'});
+    } catch (error) {
+      console.log(error)
+    }
   }
 }
