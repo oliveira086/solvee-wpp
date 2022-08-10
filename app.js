@@ -28,6 +28,8 @@ const allowedOrigins = [
   'http://localhost:3000',
   'https://api-dev.solvee.app.br',
   'https://solvee.app.br/',
+  'https://solvee.app.br/send',
+  'http://solvee.app.br/',
   '*'
 ];
 
