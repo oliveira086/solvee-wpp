@@ -13,4 +13,9 @@ router.post(
   MessageController.sendMessage
 );
 
+router.post(
+  '/send-marketing',
+  MessageController.sendMessageMarketing
+);
+
 module.exports = router;

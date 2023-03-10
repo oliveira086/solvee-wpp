@@ -45,8 +45,14 @@ app.use(function(req, res, next) {
   next(createError(404));
 });
 
+async function getBot() {
+  const response = await bot
+  return response
+}
 
-bot.client;
+getBot().then(res => {
+  res
+})
 
 // error handler
 app.use(function(err, req, res, next) {
