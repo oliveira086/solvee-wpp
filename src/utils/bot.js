@@ -10,29 +10,7 @@ const { MessageType, DisconnectReason, useMultiFileAuthState,  } = require('@adi
 const sock = useMultiFileAuthState('auth_info_baileys').then(res => {
   const sock = makeWASocket({
     auth: res.state,
-    printQRInTerminal: true,
-    patchMessageBeforeSending: (message) => {
-      const requiresPatch = !!(
-          message.buttonsMessage ||
-          // || message.templateMessage
-          message.listMessage
-      );
-      if (requiresPatch) {
-          message = {
-              viewOnceMessage: {
-                  message: {
-                      messageContextInfo: {
-                          deviceListMetadataVersion: 2,
-                          deviceListMetadata: {},
-                      },
-                      ...message,
-                  },
-              },
-          };
-      }
-
-      return message;
-  }
+    printQRInTerminal: true
   });
 
   return sock;
